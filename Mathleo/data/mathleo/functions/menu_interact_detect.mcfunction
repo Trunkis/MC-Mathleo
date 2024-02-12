@@ -15,7 +15,8 @@ execute as @a[scores={mathleo.menu_interact=18},tag=mathleo.playing] run functio
 execute as @a[scores={mathleo.menu_interact=19},tag=mathleo.playing] run function mathleo:game/calculate/player/divide/divide
 execute as @a[scores={mathleo.menu_interact=20},tag=mathleo.playing] run function mathleo:game/calculate/player/increase_times
 execute as @a[scores={mathleo.menu_interact=21},tag=mathleo.playing] run function mathleo:game/calculate/player/decrease_times
-
+execute as @a[scores={mathleo.menu_interact=22},tag=mathleo.playing] run function mathleo:game/calculate/player/increase_times_plus
+execute as @a[scores={mathleo.menu_interact=23},tag=mathleo.playing] run function mathleo:game/calculate/player/decrease_times_plus
 
 ##Loop
 schedule function mathleo:menu_interact_detect 1t

@@ -1,6 +1,5 @@
 ##Load
 scoreboard objectives add mathleo.timer dummy
-scoreboard objectives add mathleo.difficulty dummy
 scoreboard objectives add mathleo.correct_number dummy
 scoreboard objectives add mathleo.number dummy
 scoreboard objectives add mathleo.question dummy
